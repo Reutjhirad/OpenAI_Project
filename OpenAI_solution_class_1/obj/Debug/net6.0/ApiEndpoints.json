@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Prog3_WebApi_Javascript.Controllers.GPTController",
+    "Method": "GPTChat",
+    "RelativePath": "api/GPT/GPTChat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "promptFromUser",
+        "Type": "Prog3_WebApi_Javascript.DTOs.Prompt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>תכנות 3 - שיעור API</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- CSS -->
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/javascript_openai.js"></script>
+</head>
+<body>
+    <div id="container">
+
+        <label for="subject">בחר נושא:</label>
+        <select id="subject">
+            <option value="Data visualization">Data visualization</option>
+            <option value="Sorting and filtering data">Sorting and filtering data</option>
+            <option value="Formulas and functions">Formulas and functions</option>
+        </select>
+
+        <br />
+
+        <label for="languages">בחר שפה:</label>
+        <select name="languages" id="languages">
+            <option value="Hebrew">Hebrew</option>
+            <option value="Arabic">Arabic</option>
+            <option value="English">English</option>
+        </select>
+
+        <br />
+
+        <button onclick="getQuestion()">לחץ לקבלת שאלה</button>
+
+
+ 
+        <button id="nextQuestionBtn" style="display: none;">Next Question</button>
+
+        <div id="questions"></div>
+
+
+
+
+    </div>
+</body>
+</html>
